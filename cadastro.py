@@ -40,7 +40,7 @@ while True:
         login_senha = input("Digite a senha: ")
 
         #Processamento de usuario e senha
-        if login_usuario == nome and login_senha == senha :
+        if login_usuario == usuario and login_senha == senha :
             while True:
                 print("\nLogin realizado com sucesso!\n")
                 print("Bem vindo,", nome)
